@@ -45,6 +45,8 @@ public class RegisterFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Toast.makeText(mContext, "You click cancle button", Toast.LENGTH_SHORT).show();
+
+                //
             }
         });
 

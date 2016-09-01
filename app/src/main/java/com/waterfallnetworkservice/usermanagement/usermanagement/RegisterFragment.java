@@ -30,8 +30,8 @@ public class RegisterFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_user_register, parent, false);
 
         //get the ui component from ui layout xml
-        mRegisterBtn = (Button)view.findViewById(R.id.register_btn); //when create layout xml the register button id  should be the same
-        mCancelBtn = (Button)view.findViewById(R.id.cancel_btn); //when create layout xml the cancel button id should be the same
+//        mRegisterBtn = (Button)view.findViewById(R.id.register_btn); //when create layout xml the register button id  should be the same
+//        mCancelBtn = (Button)view.findViewById(R.id.cancel_btn); //when create layout xml the cancel button id should be the same
 
         //setup the click event listener
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {

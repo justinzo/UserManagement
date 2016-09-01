@@ -3,4 +3,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_label_to_develop_sys">Develop System</string>
+    <string name="btn_label_to_xbox_sys">X Box</string>
+    <string name="btn_label_button_example">Button Example</string>
+    <string name="btn_label_textview_example">TextView Example</string>
+    <string name="btn_label_edittext_example">EditText Example</string>
+    <string name="btn_label_go_to_login">To Login Page</string>
+    <string name="btn_label_go_to_register">To Register Page</string>
+    <string name="btn_label_register">Register</string>
+    <string name="btn_label_cancel_register">Cancel</string>
 </resources>

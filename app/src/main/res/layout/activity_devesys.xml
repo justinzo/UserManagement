@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="70dp"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:orientation="vertical" >
+    android:paddingRight="16dp">
 
     <Button
-        android:id="@+id/btn_to_dev_sys"
+        android:id="@+id/btn_go_to_login"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/btn_label_to_develop_sys" />
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_label_go_to_login"/>
+
     <Button
-        android:id="@+id/btn_to_xbox_sys"
+        android:id="@+id/btn_go_to_register"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/btn_label_to_xbox_sys" />
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_label_go_to_register"/>
+
+
 </LinearLayout>
